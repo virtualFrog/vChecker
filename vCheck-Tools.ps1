@@ -26,7 +26,7 @@
 #                                INITIALISATION                                #
 ################################################################################
 # Initialise any required variables
-$ScriptPath = (Split-Path ((Get-Variable MyInvocation).Value).MyCommand.Path)+"\vCheck"
+$ScriptPath = (Split-Path ((Get-Variable MyInvocation).Value).MyCommand.Path)
 $vCheckPath = $ScriptPath
 
 $pluginXMLURL = "https://raw.github.com/alanrenouf/vCheck-vSphere/master/plugins.xml"
