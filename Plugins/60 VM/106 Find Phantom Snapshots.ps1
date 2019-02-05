@@ -1,5 +1,5 @@
-$Title = "Find Phantom Snapshots"
-$Header = "VM's with Phantom Snapshots: [count]"
+$Title = "[VM] Phantom Snaps"
+$Header = "[VM] VM's with Phantom Snapshots: [count]"
 $Comments = "The following VM's have Phantom Snapshots"
 $Display = "Table"
 $Author = "Mads Fog Albrechtslund"

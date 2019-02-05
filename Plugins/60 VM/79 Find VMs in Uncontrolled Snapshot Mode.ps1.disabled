@@ -10,8 +10,8 @@ Import-LocalizedData -BaseDirectory ($ScriptPath + "\lang") -BindingVariable pLa
 
 #endregion Internationalization
 
-$Title = "VMs in uncontrolled snapshot mode"
-$Header = "VMs in uncontrolled snapshot mode: [count]"
+$Title = "[VM] uncontrolled snap"
+$Header = "[VM] in uncontrolled snapshot mode: [count]"
 $Comments = "The following VMs are in snapshot mode, but vCenter isn't aware of it. See http://kb.vmware.com/kb/1002310"
 $Display = "Table"
 $Author = "Rick Glover, Matthias Koehler, Dan Rowe"

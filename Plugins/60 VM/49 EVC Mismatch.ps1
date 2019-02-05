@@ -14,8 +14,8 @@ ForEach ($EVCHost in $VMH) {
 }
 
 $PluginCategory = "vSphere"
-$Title = "EVC Mismatch"
-$Header = "EVC Mismatch"
+$Title = "[VM] EVC"
+$Header = "[VM] EVC Mismatch"
 $Comments = "List of VMs for which the EVC mode does not match the Host/Cluster. This can negatively impact performance."
 $Display = "Table"
 $Author = "Bill Wall"

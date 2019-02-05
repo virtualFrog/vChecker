@@ -1,5 +1,5 @@
-$Title = "Host Alarms"
-$Header = "Host(s) Alarm(s): [count]"
+$Title = "[Hosts] Alarms"
+$Header = "[Hosts] Alarm(s): [count]"
 $Comments = "The following alarms have been registered against hosts in vCenter"
 $Display = "Table"
 $Author = "Alan Renouf, John Sneddon"

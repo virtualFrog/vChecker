@@ -1,5 +1,5 @@
-$Title = "VMs restarted due to Guest OS Error"
-$Header = "HA: VM restarted due to Guest OS Error: [count]"
+$Title = "[VM] Guest OS Error"
+$Header = "[VM] HA: VM restarted due to Guest OS Error: [count]"
 $Display = "Table"
 $Author = "Alan Renouf"
 $PluginVersion = 1.4

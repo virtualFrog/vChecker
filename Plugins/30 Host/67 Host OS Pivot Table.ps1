@@ -1,5 +1,5 @@
-$Title = "Host Build versions in use"
-$Header = "Host Build versions in use"
+$Title = "[Hosts] Builds in use"
+$Header = "[Hosts] Host Build versions in use"
 $Comments = "The following host builds are in use in this vCenter"
 $Display = "Table"
 $Author = "Frederic Martin"

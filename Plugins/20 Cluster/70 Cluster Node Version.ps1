@@ -1,5 +1,5 @@
-$Title = "Cluster Node version"
-$Header = "Cluster Node version"
+$Title = "[Cluster] version"
+$Header = "[Cluster] Node version"
 $Comments = "Display per cluster nodes version if unique or mismatch"
 $Display = "Table"
 $Author = "Raphael Schitz, Frederic Martin"

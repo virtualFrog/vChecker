@@ -1,5 +1,5 @@
-$Title = "Datastore Clusters with sDRS Disabled"
-$Header = "Datastore Clusters with sDRS disabled or set to manual: [count]"
+$Title = "[Datastore] DS-Clusters"
+$Header = "[Datastore] Datastore Clusters with sDRS disabled or set to manual: [count]"
 $Comments = "The following Datastore Clusters either do not have sDRS enabled or it is set to manual"
 $Display = "Table"
 $Author = "Shawn Masterson"

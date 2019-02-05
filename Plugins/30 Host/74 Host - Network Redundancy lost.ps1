@@ -1,5 +1,5 @@
-$Title = "Network redundancy lost"
-$Header = "Network redundancy lost: [count]"
+$Title = "[Hosts] Network redundancy"
+$Header = "[Hosts] Network redundancy lost: [count]"
 $Comments = "The following Hosts have lost network redundancy"
 $Display = "Table"
 $Author = "Olivier TABUT"

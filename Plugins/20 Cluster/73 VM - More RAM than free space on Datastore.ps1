@@ -1,5 +1,5 @@
-$Title = "More RAM than free space on Datastore"
-$Header = "More RAM than free space on Datastore: [count]"
+$Title = "[Cluster] RAM / DS Capacity"
+$Header = "[Cluster] More RAM than free space on Datastore: [count]"
 $Comments = "The following VMs can't vMotion because they have more RAM than free space on datastore"
 $Display = "Table"
 $Author = "Olivier TABUT, Bob Cote"

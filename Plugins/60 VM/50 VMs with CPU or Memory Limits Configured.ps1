@@ -1,5 +1,5 @@
-$Title = "VMs with CPU or Memory Limits Configured"
-$Header = "VMs with CPU or Memory Limits Configured: [count]"
+$Title = "[VM] Limits"
+$Header = "[VM] VMs with CPU or Memory Limits Configured: [count]"
 $Comments = "The following VMs have a CPU or memory limit configured which may impact the performance of the VM. Note: -1 indicates no limit"
 $Display = "Table"
 $Author = "Jonathan Medd"

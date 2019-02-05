@@ -1,5 +1,5 @@
-$Title = "Hardware status warnings/errors"
-$Header = "Hardware status warnings/errors"
+$Title = "[Hosts] Hardware status"
+$Header = "[Hosts] Hardware status warnings/errors"
 $Comments = "Details can be found in the Hardware Status tab"
 $Display = "Table"
 $Author = "Raphael Schitz"
@@ -13,7 +13,7 @@ foreach ($HostsView in ($HostsViews|Where-Object {$_.runtime.connectionstate -eq
    $HealthStatus = ((Get-View ($HostsView).ConfigManager.HealthStatusSystem).runtime)
    $HWStatus = $HealthStatus.HardwareStatusInfo
    if ($HWStatus) {
-      $HWStatusProp = $HWStatus|gm|Where-Object {$_.membertype -eq "property"}
+      $HWStatusProp = $HWStatus|Get-Member|Where-Object {$_.membertype -eq "property"}
       $HWStatusDetails = $HWStatusProp|Foreach-Object {$HWStatus.($_.name)}|Where-Object {$_.status.key -inotmatch "green" -band $_.status.key -inotmatch "unknown"}| Select-Object @{N="sensor";E={$_.name}},@{N="status";E={$_.status.key}}
       $HealthStatusDetails = ($HealthStatus.SystemHealthInfo).NumericSensorInfo|Where-Object {$_.HealthState.key -inotmatch "green" -band $_.HealthState.key -inotmatch "unknown"}|Select-Object @{N="sensor";E={$_.name}},@{N="status";E={$_.HealthState.key}}
       if ($HWStatusDetails) {

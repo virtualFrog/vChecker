@@ -1,5 +1,5 @@
-$Title = "Host Configuration Issues"
-$Header = "Host(s) Config Issue(s): [count]"
+$Title = "[Hosts] Config Issues"
+$Header = "[Hosts] Config Issue(s): [count]"
 $Comments = "The following configuration issues have been registered against Hosts in vCenter"
 $Display = "Table"
 $Author = "Alan Renouf, Dan Barr"

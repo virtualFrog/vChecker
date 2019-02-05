@@ -1,5 +1,5 @@
-$Title = "Hosts Dead LUN Path"
-$Header = "Dead LunPath : [count]"
+$Title = "[Hosts] Dead Paths"
+$Header = "[Hosts] Dead LunPath : [count]"
 $Comments = "Dead LUN Paths may cause issues with storage performance or be an indication of loss of redundancy"
 $Display = "Table"
 $Author = "Alan Renouf, Frederic Martin"

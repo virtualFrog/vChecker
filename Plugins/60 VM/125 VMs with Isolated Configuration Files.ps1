@@ -1,5 +1,5 @@
-$Title = "VMs with configuration files (*.vmx, etc) isolated from their disks"
-$Header = "VMs with configuration files (*.vmx, etc) isolated from their disks : [count]"
+$Title = "[VM] vmx files"
+$Header = "[VM] VMs with configuration files (*.vmx, etc) isolated from their disks : [count]"
 $Comments = "The following VMs have their configuration files (*.vmx, etc) stored in a different datastore than their disks"
 $Display = "Table"
 $Author = "Kristofor Hines"

@@ -1,5 +1,5 @@
-$Title = "Clusters Without Host Profile attached"
-$Header = "Clusters Without Host Profile attached"
+$Title = "[Cluster] Host Profile"
+$Header = "[Cluster] Without Host Profile attached"
 $Comments = "The following clusters do not have a host profile attached"
 $Display = "Table"
 $Author = "John Sneddon"

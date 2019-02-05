@@ -1,5 +1,5 @@
-$Title = "ESXi with Technical Support mode or ESXi Shell enabled"
-$Header = "ESXi Hosts with Tech Support Mode or ESXi Shell Enabled : [count]"
+$Title = "[Hosts] SSH & Shell"
+$Header = "[Hosts] ESXi Hosts with Tech Support Mode or ESXi Shell Enabled : [count]"
 $Comments = "The following ESXi Hosts have Technical support mode or ESXi Shell enabled, this may not be the best security option, see here for more information: <a href='http://www.yellow-bricks.com/2010/03/01/disable-tech-support-on-esxi/' target='_blank'>Yellow-Bricks Disable Tech Support on ESXi</a>."
 $Display = "Table"
 $Author = "Alan Renouf"

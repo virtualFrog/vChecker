@@ -1,5 +1,5 @@
-$Title = "Datastores in Maintenance Mode"
-$Header = "Datastores in Maintenance Mode : [count]"
+$Title = "[Datastore] Maint Mode"
+$Header = "[Datastore] Datastores in Maintenance Mode : [count]"
 $Comments = "Datastore held in Maintenance mode will not be hosting any virtual machine, check the below Datastore are in an expected state"
 $Display = "Table"
 $Author = "Frederic Martin"

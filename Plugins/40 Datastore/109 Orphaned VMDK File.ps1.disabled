@@ -26,8 +26,8 @@
 # Use at your own risk.
 #
 ##
-$Title = "Orphaned VMDK File Plugin"
-$Header = "Orphaned VMDK Files: [count]"
+$Title = "[Datastore] Orphaned VMDKs"
+$Header = "[Datastore] Orphaned VMDK Files: [count]"
 $Comments = "This plugin can be used to generate a custom report of orphaned VMDK files. Note: This plugin can take quite a while to run, depending on the environment."
 $Display = "Table"
 $Author = "Joel Gibson et al."

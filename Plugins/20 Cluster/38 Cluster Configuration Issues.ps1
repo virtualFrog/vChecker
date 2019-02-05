@@ -1,5 +1,5 @@
-$Title = "Cluster Configuration Issues"
-$Header = "Cluster(s) Config Issue(s): [count]"
+$Title = "[Cluster] Config Issues"
+$Header = "[Cluster] Cluster(s) Config Issue(s): [count]"
 $Comments = "The following alarms have been registered against clusters in vCenter"
 $Display = "Table"
 $Author = "Alan Renouf"

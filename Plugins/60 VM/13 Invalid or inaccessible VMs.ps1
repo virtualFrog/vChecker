@@ -1,5 +1,5 @@
-$Title = "Invalid or inaccessible VM"
-$Header = "VM invalid or inaccessible: [count]"
+$Title = "[VM] State"
+$Header = "[VM] VM invalid or inaccessible: [count]"
 $Comments = "The following VMs are marked as inaccessible or invalid"
 $Display = "Table"
 $Author = "Alan Renouf"

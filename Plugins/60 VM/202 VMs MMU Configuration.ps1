@@ -1,5 +1,5 @@
-$Title = "Hardware CPU/MMU virtualization configuration"
-$Header = "Hardware CPU/MMU virtualization configuration"
+$Title = "[VM] CPU/MMU"
+$Header = "[VM] Hardware CPU/MMU virtualization configuration"
 $Comments = "The following lists all VMs and their hardware CPU/MMU virtualization configuration"
 $Display = "Table"
 $Author = "Marc Bouchard"

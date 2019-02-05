@@ -1,5 +1,5 @@
-$Title = "Hosts with reboot required"
-$Header = "Hosts with reboot required : [count]"
+$Title = "[Hosts] reboot"
+$Header = "[Hosts] Hosts with reboot required : [count]"
 $Comments = "The following hosts require a reboot."
 $Display = "Table"
 $Author = "Robert van den Nieuwendijk"

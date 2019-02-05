@@ -1,5 +1,5 @@
-$Title = "Missing ESX(i) updates and patches"
-$Header = "Missing ESX(i) updates and patches: [count]"
+$Title = "[Hosts] Patches"
+$Header = "[Hosts] Missing ESX(i) updates and patches: [count]"
 $Comments = "The following updates and/or patches are not applied."
 $Display = "Table"
 $Author = "Luc Dekens"

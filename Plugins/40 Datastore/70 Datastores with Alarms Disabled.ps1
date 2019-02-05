@@ -1,5 +1,5 @@
-$Title = "Datastores with Alarms Disabled"
-$Header = "Datastores with Alarms Disabled : [count]"
+$Title = "[Datastore] Alarms disabled"
+$Header = "[Datastore] Datastores with Alarms Disabled : [count]"
 $Comments = "The datastores will not generate alarms which may highlight problems with the datastore"
 $Display = "Table"
 $Author = "John Sneddon"

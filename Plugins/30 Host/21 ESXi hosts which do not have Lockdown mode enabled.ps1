@@ -1,5 +1,5 @@
-$Title = "ESXi hosts which do not have Lockdown mode enabled"
-$Header = "ESXi Hosts with Lockdown Mode not Enabled: [count]"
+$Title = "[Hosts] Lockdown mode"
+$Header = "[Hosts] ESXi Hosts with Lockdown Mode not Enabled: [count]"
 $Comments = "The following ESXi Hosts do not have lockdown enabled, think about using lockdown as an extra security feature."
 $Display = "Table"
 $Author = "Alan Renouf"

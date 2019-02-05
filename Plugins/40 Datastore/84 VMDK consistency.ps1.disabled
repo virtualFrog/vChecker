@@ -1,5 +1,5 @@
-$Title = "VMDK consistency"
-$Header =  "VMDK consistency"
+$Title = "[Datastore] VMDK consistency"
+$Header =  "[Datastore] VMDK consistency"
 $Comments = "This simple plug-in checks if every FLAT-VMDK file found in a folder, has a corresponding VMDK file also present; For more information to fix the problem, please take a look at <a href='http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1002511'>Recreating a missing virtual machine disk descriptor file (1002511)</a>"
 $Display = "List"
 $Author = "Peronnik Beijer"

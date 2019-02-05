@@ -16,8 +16,8 @@ if ($proxy -eq "$false"){
 }
 $NotInstalled
 
-$Title = "Plugins not up to date or not installed"
-$Header = "Plugins not up to date or not installed: $(@($NotInstalled).count)"
+$Title = "[vCheck] Plugins not up to date or not installed"
+$Header = "[vCheck] Plugins not up to date or not installed: $(@($NotInstalled).count)"
 $Comments = "The following Plugins are not up to date or not installed"
 $Display = "Table"
 $Author = "Alan Renouf, Jake Robinson, Frederic Martin"

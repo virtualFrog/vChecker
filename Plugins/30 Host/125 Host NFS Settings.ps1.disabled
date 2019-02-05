@@ -1,4 +1,4 @@
-$Title = "Host NFS Settings"
+$Title = "[Hosts] NFS"
 $Comments = "The following hosts may not have the recommended settings for NFS storage.  See <a href='https://kb.vmware.com/s/article/2239' target='_blank'>VMware KB 2239</a> and your storage vendor's documentation for the recommended settings."
 $Display = "Table"
 $Author = "Doug Taliaferro"
@@ -66,7 +66,7 @@ if ($hostResults.Count -gt 0) {
 }
 $hostResults
 
-$Header = "Host NFS settings that don't match : [count]"
+$Header = "[Hosts] Host NFS settings that don't match : [count]"
 # Table formatting - highlight cells without matching settings
 $TableFormat = @{}
 foreach ($Property in $myObj.psObject.Properties) {

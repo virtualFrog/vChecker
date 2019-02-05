@@ -1,5 +1,5 @@
-$Title = "Hosts with different hostname"
-$Header = "Hosts with different hostname: [count]"
+$Title = "[Hosts] hostname"
+$Header = "[Hosts] with different hostname: [count]"
 $Comments = "The following hosts have a different hostname than their name in the vCenter Server. This might give troubles with HA."
 $Display = "Table"
 $Author = "Robert van den Nieuwendijk"

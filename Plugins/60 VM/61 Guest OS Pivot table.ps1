@@ -1,5 +1,5 @@
-$Title = "VMs by Operating System"
-$Header = "VMs by Operating System : [count]"
+$Title = "[VM] OS Chart"
+$Header = "[VM] VMs by Operating System : [count]"
 $Comments = "The following Operating Systems are in use in this vCenter"
 $Display = "Table"
 $Author = "Raymond"

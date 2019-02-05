@@ -1,5 +1,5 @@
-$Title = "Hosts not Connected or Alarms Disabled"
-$Header = "Hosts not Connected or Alarms Disabled : [count]"
+$Title = "[Hosts] State"
+$Header = "[Hosts] Hosts not Connected or Alarms Disabled : [count]"
 $Comments = "Shows hosts not in service and those with alarms disabled."
 $Display = "Table"
 $Author = "Chris Monahan"
