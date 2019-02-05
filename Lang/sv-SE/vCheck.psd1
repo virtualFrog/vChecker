@@ -1,7 +1,7 @@
 # culture="se-SV"
 ConvertFrom-StringData @' 
     setupMsg01  = 
-    setupMsg02  = Välkomen till vCheck skapat av Virtu-Al http://virtu-al.net
+    setupMsg02  = Välkomen till vCheck
     setupMsg03  = =================================================
 	setupMsg04  = Detta är första gången du kör scriptet eller så har du ändrat till konfiguration wizarden.
     setupMsg05  =

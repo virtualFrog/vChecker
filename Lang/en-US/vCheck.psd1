@@ -1,7 +1,7 @@
 # culture="en-US"
 ConvertFrom-StringData @' 
     setupMsg01  = 
-    setupMsg02  = Welcome to vCheck by Virtu-Al http://virtu-al.net
+    setupMsg02  = Welcome to vSphereCheck Fork by Dario Doerflinger (@virtualFrog)
     setupMsg03  = =================================================
     setupMsg04  = This is the first time you have run this script or you have re-enabled the setup wizard.
     setupMsg05  =
@@ -26,8 +26,8 @@ ConvertFrom-StringData @'
     pluginStart  = ..start calculating {0} by {1} v{2} [{3} of {4}]
     pluginEnd    = ..finished calculating {0} by {1} v{2} [{3} of {4}]
     repTime     = This report took {0} minutes to run all checks, completing on {1} at {2}
-    repPRTitle = Plugin Report
-    repTTRTitle = Time to Run
+    repPRTitle = [Finalize] Plugin Report
+    repTTRTitle = [Timing] Time to Run
     slowPlugins = The following plugins took longer than {0} seconds to run, there may be a way to optimize these or remove them if not needed
     emailSend   = ..Sending Email
     emailAtch   = vCheck attached to this email

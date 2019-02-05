@@ -1,7 +1,7 @@
 # culture="nb-NO"
 ConvertFrom-StringData @' 
     setupMsg01  = 
-    setupMsg02  = Velkommen til vCheck, utviklet av Virtu-Al http://virtu-al.net
+    setupMsg02  = Velkommen til vCheck
     setupMsg03  = =================================================
     setupMsg04  = Enten er dette første gangen du kjører scriptet, eller så må du reaktivere oppstartsinstillingene.
     setupMsg05  =
