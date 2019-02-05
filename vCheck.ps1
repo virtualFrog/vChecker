@@ -29,16 +29,8 @@
 
 .NOTES 
    File Name  : vCheck.ps1 
-   Author     : Alan Renouf - @alanrenouf
-   Version    : 6.25
-
-   Thanks to all who have commented on my blog to help improve this project
-   all beta testers and previous contributors to this script.
-
-.LINK
-   http://www.virtu-al.net/vcheck-pluginsheaders/vcheck
-.LINK
-   https://github.com/alanrenouf/vCheck-vSphere/
+   Author     : Dario Doerflinger - @virtualFrog
+   Version    : 7.0
 
 .INPUTS
    No inputs required
@@ -68,7 +60,7 @@ param (
 	[string]$job
 )
 
-$vCheckVersion = "6.25"
+$vCheckVersion = "7.0"
 $Date = Get-Date
 
 # Setup all paths required for script to run
