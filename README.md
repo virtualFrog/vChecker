@@ -1,6 +1,6 @@
 <a name="Title">
 
-# vSphereCheck (Fork of vCheck Daily Report for vSphere by Alan Renouf)
+# vSphereCheck (Fork of vCheck Daily Report for vSphere)
 [![stars badge]][stars]
 [![forks badge]][forks]
 [![issues badge]][issues]
@@ -33,6 +33,12 @@
 
 # About
 [*Back to top*](#Title)
+
+This is a fork of the awesome vCheck Daily Report. The below text is unchanged from the original. I have left the License unchanged but have implemented rebranding in most Outputs to reflect this being a fork.
+
+Why make a fork you ask? Well, I wanted to be the master of the changes and implement them at my own pace instead of waiting for the official maintainers to merge changes into the master branch. Plus I wanted/needed to make some changes to insert Company branding into the report.
+
+I do often check the official vCheck for new Issues and implement the fixes into my fork. You can reach out to me via the VMware Code community or twitter (@virtual_frog).
 
 vCheck is a PowerShell HTML framework script, the script is designed to run as a scheduled task before you get into the office to present you with key information via an email directly to your inbox in a nice easily readable format.
 
