@@ -22,6 +22,7 @@ Function Get-VCVersion {
     
         # Pulled from https://kb.vmware.com/kb/2143838
         $vcenterBuildVersionMappings = @{
+            "11726888"="vCenter 6.7 U1b,2019-01-17"
             "11338176"="vCenter Appliance 6.7 U1a,2018-12-20"
             "10244857"="vCenter 6.7 U1 (6.7.0.20000),2018-10-16"
             "10244745"="vCenter 6.7 U1 (6.7.0.20000),2018-10-16"
@@ -187,5 +188,8 @@ $Header =  "[vCenter] Build and version"
 $Comments = "This plugin gets the vCenter server version and maps it to a build number"
 $Display = "table"
 $Author = "Dario Doerflinger"
-$PluginVersion = 1.0
+$PluginVersion = 1.1
 $PluginCategory = "vSphere"
+
+# Changes:
+# 1.1   Updated vCenter build up to february 22nd 2019
