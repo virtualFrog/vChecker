@@ -5,7 +5,7 @@ Function Get-VCVersion {
     <#
         .NOTES
         ===========================================================================
-         Created by:    William Lam, Dario Doerflinger
+         Created by:    William Lam, Dario Doerflinger, Alex Lopez
         ===========================================================================
         .DESCRIPTION
             This function extracts the vCenter Server (Windows or VCSA) build from your env
@@ -22,24 +22,25 @@ Function Get-VCVersion {
     
         # Pulled from https://kb.vmware.com/kb/2143838
         $vcenterBuildVersionMappings = @{
+            "11727113"="vCenter Appliance 6.7 U1b,2019-01-17"
             "11726888"="vCenter 6.7 U1b,2019-01-17"
             "11338176"="vCenter Appliance 6.7 U1a,2018-12-20"
-            "10244857"="vCenter 6.7 U1 (6.7.0.20000),2018-10-16"
+            "10244857"="vCenter Appliance 6.7 U1 (6.7.0.20000),2018-10-16"
             "10244745"="vCenter 6.7 U1 (6.7.0.20000),2018-10-16"
             "9451876"="vCenter 6.7d (6.7.0.14000),2018-08-14"
-            "9433931"="vCenter 6.7d (6.7.0.14000),2018-08-14"
-            "9433894"="vCenter 6.7d (6.7.0.14000),2018-08-14"
-            "9232942"="vCenter 6.7c (6.7.0.13000),2018-07-26"
+            "9433931"="vCenter Appliance 6.7d (6.7.0.14000),2018-08-14"
+            "9433894"="vCenter Windows 6.7d (6.7.0.14000),2018-08-14"
+            "9232942"="vCenter Appliance 6.7c (6.7.0.13000),2018-07-26"
+            "9232933"="vCenter Windows 6.7c (6.7.0.13000),2018-07-26"
             "9232925"="vCenter 6.7c (6.7.0.13000),2018-07-26"
-            "9232933"="vCenter 6.7c (6.7.0.13000),2018-07-26"
+            "8833179"="vCenter Appliance 6.7b (6.7.0.12000),2018-06-28"
+            "8833120"="vCenter Windows 6.7b (6.7.0.12000),2018-06-28"
             "8832884"="vCenter 6.7b (6.7.0.12000),2018-06-28"
-            "8833179"="vCenter 6.7b (6.7.0.12000),2018-06-28"
-            "8833120"="vCenter 6.7b (6.7.0.12000),2018-06-28"
+            "8546281"="vCenter Windows 6.7a (6.7.0.11000),2018-05-22"
             "8546234"="vCenter 6.7a (6.7.0.11000),2018-05-22"
-            "8546281"="vCenter 6.7a (6.7.0.11000),2018-05-22"
-            "8170087"="vCenter 6.7 (6.7.0.10000),2018-04-17"
             "8217866"="vCenter 6.7 (6.7.0.10000),2018-04-17"
-            "8170161"="vCenter 6.7 (6.7.0.10000),2018-04-17"
+            "8170161"="vCenter Appliance 6.7 (6.7.0.10000),2018-04-17"
+            "8170087"="vCenter Windows 6.7 (6.7.0.10000),2018-04-17"
             "11347054"="vCenter Server 6.5 U2e,2018-12-20"
             "10964411"="vCenter Server 6.5 U2d,2018-11-29"
             "9451637"="vCenter Server 6.5 U2c,2018-08-14"
@@ -192,4 +193,4 @@ $PluginVersion = 1.1
 $PluginCategory = "vSphere"
 
 # Changes:
-# 1.1   Updated vCenter build up to february 22nd 2019
+# 1.1   Updated vCenter build up to February 22nd 2019
