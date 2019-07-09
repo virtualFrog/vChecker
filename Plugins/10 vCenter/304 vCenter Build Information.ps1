@@ -23,7 +23,7 @@ Function Get-VCVersion {
         # Pulled from https://kb.vmware.com/kb/2143838
         $vcenterBuildVersionMappings = @{
             "13843380"="vCenter Appliance 6.7 U2b,2019-05-30"
-            "13643870"="vCenter 6.7 Ua,2019-05-14"
+            "13643870"="vCenter 6.7 U2a,2019-05-14"
             "13010631"="vCenter 6.7 U2,2019-04-11"
             "11727113"="vCenter Appliance 6.7 U1b,2019-01-17"
             "11726888"="vCenter 6.7 U1b,2019-01-17"
