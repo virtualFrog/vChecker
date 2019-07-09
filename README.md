@@ -5,13 +5,13 @@
 [![forks badge]][forks]
 [![issues badge]][issues]
 
-[stars badge]:https://img.shields.io/github/stars/virtualFrog/vCheck-vSphere.svg
-[forks badge]:https://img.shields.io/github/forks/virtualFrog/vCheck-vSphere.svg
-[issues badge]:https://img.shields.io/github/issues/virtualFrog/vCheck-vSphere.svg
+[stars badge]:https://img.shields.io/github/stars/virtualFrog/vChecker.svg
+[forks badge]:https://img.shields.io/github/forks/virtualFrog/vChecker.svg
+[issues badge]:https://img.shields.io/github/issues/virtualFrog/vChecker.svg
 
-[stars]:https://github.com/virtualFrog/vCheck-vSphere/stargazers
-[forks]:https://github.com/virtualFrog/vCheck-vSphere/network
-[issues]:https://github.com/virtualFrog/vCheck-vSphere/issues
+[stars]:https://github.com/virtualFrog/vChecker/stargazers
+[forks]:https://github.com/virtualFrog/vChecker/network
+[issues]:https://github.com/virtualFrog/vChecker/issues
 
 [Join the VMware Code and #vCheck channel on slack and ask questions here!](https://code.vmware.com/slack/)
 
