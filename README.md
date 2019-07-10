@@ -1,6 +1,6 @@
 <a name="Title">
 
-# vSphereCheck (Fork of vCheck Daily Report for vSphere)
+# vChecker (Fork of vCheck Daily Report for vSphere)
 [![stars badge]][stars]
 [![forks badge]][forks]
 [![issues badge]][issues]
