@@ -6,9 +6,9 @@ Function Get-VAMIStorageUsed {
     .NOTES
     ===========================================================================
      Created by:    Dario Doerflinger
-     Organization:  Bechtle Steffen Schweiz AG
+     Organization:  BUSINESS IT AG
      Blog:          virtualfrog.wordpress.com
-     Twitter:       @virtualDD
+     Twitter:       @virtual_frog
 	===========================================================================
     .SYNOPSIS
         This function retrieves the individaul OS partition storage utilization
@@ -54,7 +54,14 @@ Function Get-VAMIStorageUsed {
             $myFilesystems[$filesystemName] = @{"name" = $path; "used" = 0; "total" = 0}
         }
         #get the value from the query result
-        $value = [Math]::Round([int]($queryResult.data[1]).toString() / 1MB, 2)
+        try {
+            $value = [Math]::Round([int]($queryResult.data[1]).toString() / 1MB, 2)
+        }
+        catch {
+            Write-Host "Seems to be a divsion by zero.."
+            $value = "N/A"
+        }
+        
 
         #populate value to correct property
         if ($queryResult.name -match "used") {
@@ -97,9 +104,10 @@ $Header = "[vCenter] VCSA Storage Usage"
 $Comments = "Lists all available mountpoints and their current storage usage on the vCenter server appliance"
 $Display = "Table"
 $Author = "Dario Doerflinger"
-$PluginVersion = 1.1
+$PluginVersion = 1.2
 $PluginCategory = "vSphere"
 
 # Change log
 ## 1.0 : initial release based on William Lam's API examples
 ## 1.1 : complete rewrite to get filesystems dynamically
+## 1.2 : division by zero detection 
