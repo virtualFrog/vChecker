@@ -319,7 +319,7 @@ Function Get-HTMLTable {
 	$XMLTable.table.SetAttribute("width", "100%")
 	
 	# If only one column, fix up the table header
-	if (($content | Get-Member -MemberType Properties).count -eq 1)
+	if (($content | Get-Member -MemberType Properties -ErrorAction SilentlyContinue).count -eq 1)
 	{
 		$XMLTable.table.tr[0].th = (($content | Get-Member -MemberType Properties) | Select-Object -ExpandProperty Name -First 1).ToString()
 	}
@@ -435,7 +435,7 @@ function Get-HTMLChart {
 	return $html
 }
 
-<# Create a new Chert object, this will get fed back down the output stream as part 
+<# Create a new Chart object, this will get fed back down the output stream as part 
    of plugin processing. This allows us to keep the same interface for plugins content #>
 function New-Chart {
 	param (
