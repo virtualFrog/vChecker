@@ -49,6 +49,7 @@ foreach ($vmHost in $vmHosts) {
     $Report += $ESXiInfo
     $i++
 } # END foreach 
+Write-Progress -ID 2 -Parent 1 -Activity "vCollecting hosts" -Status $lang.Complete -Completed
 
 $Report
 
