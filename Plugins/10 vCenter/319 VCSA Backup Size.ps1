@@ -36,6 +36,7 @@ Function Get-VAMIBackupSize {
         $backupReport += $backupReportChunk
         $counter++
     }
+    Write-Progress -ID 2 -Parent 1 -Activity "Collecting backup information" -Status $lang.Complete -Completed
     $backupReportChunk = New-Object psobject
     $backupReportChunk | Add-Member -MemberType NoteProperty -Name "Backup Part" -Value "Total Size"
     $backupReportChunk | Add-Member -MemberType NoteProperty -Name "Backup Part Size " -Value "$($estimateBackupSize) MB"
