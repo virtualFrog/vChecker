@@ -21,6 +21,18 @@ Function Get-ESXiVersion {
 
        # Pulled from https://kb.vmware.com/kb/2143832
        $esxiBuildVersionMappings = @{
+           "17168206"="ESXi 7.0 Update 1b,2020-11-19"
+           "17119627"="ESXi 7.0 Update 1a,2020-11-04"
+           "16850804"="ESXi 7.0 Update 1,2020-10-06"
+           "16324942"="ESXi 7.0b,2020-06-23"
+           "15843807"="ESXi 7.0 GA,2020-04-02"
+           "17167734"="ESXi 6.7 P04,2020-11-19"
+           "17098360"="ESXi 6.7 EP 17,2020-11-04"
+           "16773714"="ESXi 6.7 EP 16,2020-10-15"
+           "16713306"="ESXi 6.7 P03,2020-08-20"
+           "16316930"="ESXi 6.7 EP 15,2020-06-09"
+           "16075168"="ESXi 6.7 P02,2020-04-28"
+           "15820472"="ESXi 6.7 EP 14,2020-04-07"
            "15160138"="ESXi 6.7 P01,2019-12-05"
            "15018017"="ESXi 6.7 EP 13,2019-11-12"
            "14320388"="ESXi 6.7 U3,2019-08-20"
@@ -214,8 +226,9 @@ $Header = "[Hosts] Build details"
 $Comments = "Details about all hosts per cluster"
 $Display = "Table"
 $Author = "Dario Doerflinger"
-$PluginVersion = 1.1
+$PluginVersion = 1.2
 $PluginCategory = "vSphere"
 
 #Changelog
 # 1.1 Updated Releases to July 9th 2019
+# 1.2 Updated releases to december 2020
