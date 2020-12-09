@@ -22,6 +22,27 @@ Function Get-VCVersion {
     
         # Pulled from https://kb.vmware.com/kb/2143838
         $vcenterBuildVersionMappings = @{
+            "17004997"="vCenter Server 7.0 update 1a,2020-10-22"
+            "16860138"="vCenter Server 7.0 Update 1,2020-10-06"
+            "16749653"="vCenter Server 7.0.0d,2020-08-25"
+            "16620007"="vCenter Server 7.0.0c,2020-07-30"
+            "16386292"="vCenter Server 7.0.0b,2020-06-23"
+            "16189094"="vCenter Server 7.0.0a,2020-05-19"
+            "15952498"="vCenter Server 7.0 GA,2020-04-02"
+            "17138064"="vCenter Appliance 6.7 Update 3l,2020-11-19"
+            "17028579"="vCenter Appliance 6.7 Update 3k,2020-10-22"
+            "16708996"="vCenter Appliance 6.7 Update 3j (6.7.0.45000),2020-08-20"
+            "14070457"="vCenter Appliance 6.7 Update 2c (6.7.0.32000),2019-07-16"
+            "16616482"="vCenter 6.7 Update 3i,2020-07-30"
+            "16275304"="vCenter 6.7 Update 3h,2020-05-28"
+            "16046470"="vCenter 6.7 Update 3g,2020-04-28"
+            "15976714"="vCenter 6.7 Update 3f,2020-04-09"
+            "15808844"="vCenter 6.7 Update 3e,2020-03-26"
+            "15679281"="vCenter 6.7 Update 3d,2020-02-27"
+            "15505668"="vCenter 6.7 Update 3c,2020-01-30"
+            "15132721"="vCenter 6.7 Update 3b (6.7.0.42000),2019-12-05"
+            "14836122"="vCenter 6.7 Update 3a (6.7.0.41000),2019-10-24"
+            "14367737"="vCenter 6.7 Update 3 (6.7.0.40000),2019-08-20"
             "13843380"="vCenter Appliance 6.7 U2b,2019-05-30"
             "13643870"="vCenter 6.7 U2a,2019-05-14"
             "13010631"="vCenter 6.7 U2,2019-04-11"
@@ -196,8 +217,9 @@ $Header =  "[vCenter] Build and version"
 $Comments = "This plugin gets the vCenter server version and maps it to a build number"
 $Display = "table"
 $Author = "Dario Doerflinger"
-$PluginVersion = 1.2
+$PluginVersion = 1.3
 $PluginCategory = "vSphere"
 
 # Changes:
 # 1.2   Updated vCenter build up to July 9th 2019
+# 1.3   Updated vCenter builds up to December 9th 2020
