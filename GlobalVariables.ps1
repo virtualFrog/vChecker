@@ -3,12 +3,12 @@
 
 
 # Set the following to true to enable the setup wizard for first time run
-$SetupWizard = $true
+$SetupWizard = $false
 
 
 # Start of Settings
 # Report header
-$reportHeader = "vCheck"
+$reportHeader = "soulTec vSphere vChecker"
 # Would you like the report displayed in the local browser once completed ?
 $DisplaytoScreen = $true
 # Display the report even if it is empty?
@@ -32,7 +32,7 @@ $EmailReportEvenIfEmpty = $true
 # If you would prefer the HTML file as an attachment then enable the following:
 $SendAttachment = $false
 # Set the style template to use.
-$Style = "Clarity"
+$Style = "DarkClarity"
 # Do you want to include plugin details in the report?
 $reportOnPlugins = $true
 # List Enabled plugins first in Plugin Report?
@@ -41,6 +41,10 @@ $ListEnabledPluginsFirst = $true
 $TimeToRun = $true
 # Report on plugins that take longer than the following amount of seconds
 $PluginSeconds = 30
+# Extra options for the vCenter connection
+#$VIExtraOps = ""
+$VIExtraOps = @{AllLinked = $true 
+                Force = $true}
 # End of Settings
 
 # End of Global Variables
