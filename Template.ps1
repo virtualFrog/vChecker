@@ -9,8 +9,10 @@ $thisIsASetting = Get-vCheckSetting $Title "thisIsASetting" $thisIsASetting
 # generate your report content here. Simple placeholder hashtable for the sake of example
 @{"Plugin"="Awesome"}
 
-$Title = "Plugin Template"
-$Header =  "Plugin Template"
+
+
+$Title = "[Theme] Plugin Template"
+$Header =  "[Theme] Plugin Template"
 $Comments = "Comment about this awesome plugin"
 $Display = "List"
 $Author = "Plugin Author"
