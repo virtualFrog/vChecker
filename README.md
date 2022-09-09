@@ -1,6 +1,6 @@
 <a name="Title">
 
-# vChecker (Fork of vCheck Daily Report for vSphere)
+# vSphereCheck (Fork of vCheck Daily Report for vSphere)
 [![stars badge]][stars]
 [![forks badge]][forks]
 [![issues badge]][issues]
@@ -14,8 +14,6 @@
 [issues]:https://github.com/virtualFrog/vChecker/issues
 
 [Join the VMware Code and #vCheck channel on slack and ask questions here!](https://code.vmware.com/slack/)
-
-![Alt text](https://virtualfrog.files.wordpress.com/2020/02/vchecker2020.png "vCheck Sample")
 
 |Navigation|
 |-----------------|
