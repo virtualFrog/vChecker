@@ -22,7 +22,21 @@ Function Get-VCVersion {
     
         # Pulled from https://kb.vmware.com/kb/2143838
         $vcenterBuildVersionMappings = @{
-            "17004997"="vCenter Server 7.0 update 1a,2020-10-22"
+            "20150588"="vCenter Server 7.0 Update 3g,2022-07-23"
+            "20051473"="vCenter Server 7.0 Update 3f,2022-07-12"
+            "19717403"="vCenter Server 7.0 Update 3e,2022-05-12"
+            "19480866"="vCenter Server 7.0 Update 3d,2022-03-29"
+            "19234570"="vCenter Server 7.0 Update 3c,2022-01-27"
+            "18778458"="vCenter Server 7.0 Update 3a,2021-10-21"
+            "18700403"="vCenter Server 7.0 Update 3,2021-10-05"
+            "18455184"="vCenter Server 7.0 Update 2d,2021-09-21"
+            "18356314"="vCenter Server 7.0 Update 2c,2021-08-24"
+            "17958471"="vCenter Server 7.0 Update 2b,2021-05-25"
+            "17920168"="vCenter Server 7.0 Update 2a,2021-04-27"
+            "17694817"="vCenter Server 7.0 Update 2,2021-03-09"
+            "17491101"="vCenter Server 7.0 Update 1d,2021-02-02"
+            "17327517"="vCenter Server 7.0 Update 1c,2020-12-17"
+            "17004997"="vCenter Server 7.0 Update 1a,2020-10-22"
             "16860138"="vCenter Server 7.0 Update 1,2020-10-06"
             "16749653"="vCenter Server 7.0.0d,2020-08-25"
             "16620007"="vCenter Server 7.0.0c,2020-07-30"
@@ -217,9 +231,10 @@ $Header =  "[vCenter] Build and version"
 $Comments = "This plugin gets the vCenter server version and maps it to a build number"
 $Display = "table"
 $Author = "Dario Doerflinger"
-$PluginVersion = 1.3
+$PluginVersion = 1.4
 $PluginCategory = "vSphere"
 
 # Changes:
 # 1.2   Updated vCenter build up to July 9th 2019
 # 1.3   Updated vCenter builds up to December 9th 2020
+# 1.4   Updated vCenter build up to September 2022 (7.0 Versions only)
