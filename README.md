@@ -15,6 +15,8 @@
 
 [Join the VMware Code and #vCheck channel on slack and ask questions here!](https://code.vmware.com/slack/)
 
+![Alt text](https://soultec.ch/wp-content/uploads/2022/09/Screenshot-2022-09-09-at-16.59.19.png "vCheck Sample")
+
 |Navigation|
 |-----------------|
 |[Fork Information](#Fork)
