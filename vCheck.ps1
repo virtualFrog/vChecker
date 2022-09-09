@@ -60,7 +60,7 @@ param (
 	[string]$job
 )
 
-$vCheckVersion = "7.0"
+$vCheckVersion = "7.1"
 $Date = Get-Date
 
 # Setup all paths required for script to run
