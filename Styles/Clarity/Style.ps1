@@ -15,7 +15,7 @@ $ChartBackground = "FFFFFF"
 $ChartSize = "200x200"
 
 # Header Images
-Add-ReportResource "Header-vCheck" ($StylePath + "\Header.jpg") -Used $true
+Add-ReportResource "Header-vCheck" ($StylePath + "\Header.png") -Used $true
 Add-ReportResource "Header-VMware" ($StylePath + "\Header-vmware.png") -Used $true
 
 # Hash table of key/value replacements
@@ -11674,7 +11674,7 @@ $ReportHTML = @"
       </header>
       <div class="content-container">
       <div class="content-area">
-      <table width='100%' style='background-color: #002438; border-collapse: collapse; border: 0px; margin: 0; padding: 0;'>
+      <table width='100%' style='background-color: #fafafa; border-collapse: collapse; border: 0px; margin: 0; padding: 0;'>
       <tr>
          <td>
             <img src='cid:Header-vCheck' alt='vCheck' />

@@ -15,7 +15,7 @@ $ChartBackground = "FFFFFF"
 $ChartSize = "200x200"
 
 # Header Images
-Add-ReportResource "Header-vCheck" ($StylePath + "\Header.jpg") -Used $true
+Add-ReportResource "Header-vCheck" ($StylePath + "\Header.png") -Used $true
 Add-ReportResource "Header-VMware" ($StylePath + "\Header-vmware.png") -Used $true
 
 # Hash table of key/value replacements
